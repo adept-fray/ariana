@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://kit.fontawesome.com/01fef2320d.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Legacy tailor</title>
+  <link rel="stylesheet" href="oocssbtn.css">
+  <link rel="stylesheet" href="oocsssize.css">
+  <link rel="stylesheet" href="oocsscolor.css">
+  <link rel="stylesheet" href="oocssresponsive.css">
+  <link rel="stylesheet" href="tailor.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="top" style="background-color: #fafafa; min-height: 100vh;">
+  <!--  top navbar  -->
+  <nav id="nav"  class="row flex medium-hide">
+    <div class="color padding-sides-1">
+      <a class="btn block underline hover-text-brown active" href="tailor.html">خانه</a>
+      <a class="btn block underline hover-text-brown" href="about.html">درباره ما</a>
+      <a class="btn block underline hover-text-brown" href="service.html">خدمات</a>
+    </div>
+    <div class="logo"><!-- LOGO  -->
+      <img src="palto/logo.png" alt="">
+    </div>
+    <div class="color padding-sides-1">
+      <a class="btn block underline hover-text-brown" href="#">نمونه کارها</a>
+      <a class="btn block underline hover-text-brown" href="faq.html">سوالات</a>
+      <a class="btn block hover-text-brown" href="contact.html">تماس با ما</a>
+    </div>
+  </nav>
+  <!--  medium less menu - mobile bar  -->
+  <nav class="large-hide" style="background-color: #3b3b3b;">
+    <div class="logo" style="text-align: center;"><!-- LOGO  -->
+      <img src="palto/logo.png" alt="">
+    </div>
+    <div class="btn" onclick="mobileBar();" style="background-color: #3b3b3b00; color: white; position: absolute; top: 39px; right: 1rem; font-size: 1.6rem;"><i class="fa fa-bars"></i></div>
+    <div id="mobile-bar" class="hide color">
+      <a class="btn block underline hover-text-brown active" href="tailor.html">خانه</a>
+      <a class="btn block underline hover-text-brown" href="about.html">درباره ما</a>
+      <a class="btn block underline hover-text-brown" href="service.html">خدمات</a>
+      <a class="btn block underline hover-text-brown" href="#">نمونه کارها</a>
+      <a class="btn block underline hover-text-brown" href="faq.html">سوالات</a>
+      <a class="btn block hover-text-brown" href="contact.html">تماس با ما</a>
+    </div>
+  </nav>
+  <!--  image cover back  -->
+  <div style="width: 100%; max-height: 66vh; overflow: hidden; position: relative; z-index: -1;">
+    <img src="palto/2.png" alt="" style="width: 100%; aspect-ratio: 10/5; object-fit: cover;">
+    <h1 class="center-absolute jumbo text-white">تماس با ما</h1>
+  </div>
+  <!--  contact us  -->
+  <div class="row" style="max-width: 1250px; margin: 0 auto;">
+    <div class="col l6 padding-jumbo padding-mobile">
+      <form action="">
+        <p>اسم:
+          <input class="input" type="text">
+        </p>
+        <p>تلفن:
+          <input class="input" type="text">
+        </p>
+        <p>ایمیل:
+          <input class="input" type="text">
+        </p>
+        <p>پیام:
+          <input class="input" type="text">
+        </p>
+        <button class="btn tertiary">ارسال</button>
+      </form>
+    </div>
+    <div class="col l6 padding-jumbo padding-mobile">
+      <h1>تماس با ما</h1>
+      <p>آیا می خواهید با آریانا خیاط ارتباط برقرار کنید؟ لطفا از اطلاعات تماس زیر استفاده کنید یا فرم سوالات عمومی ما را پر کنید.</p>
+      <div>
+        <div class="icon-line">
+          <i class="fa-solid fa-message"></i>
+          <p>LegacyTailor@gmail.com</p>
+        </div>
+        <div class="icon-line">
+          <i class="fa-solid fa-mobile"></i>
+          <p>۸۴ ۴۱ ۵۱۶ - ۰۹۳۵</p>
+        </div>
+        <div class="icon-line">
+          <i class="fa-solid fa-house"></i>
+          <p>تهران خیابان فرشته ۱۲ پلاک ۳۱</p>
+        </div>
+        <div class="icon-line">
+          <i class="fa-brands fa-instagram"></i>
+          <p>ما را در اینستاگرام دنبال کنید</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--  footer  -->
+  <div dir="ltr" class="footer dark-gray padding-jumbo large">Copyright 2019 - legacytailor.com. All rights Reserved!</div>
+  <div class="floating-button tertiary"><a href="#top" class="btn"><i class="fa-solid fa-caret-up"></i></a></div>
+  <script src="mobilebar.js"></script>
+  </div>

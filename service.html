@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://kit.fontawesome.com/01fef2320d.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Legacy tailor</title>
+  <link rel="stylesheet" href="oocssbtn.css">
+  <link rel="stylesheet" href="oocsssize.css">
+  <link rel="stylesheet" href="oocsscolor.css">
+  <link rel="stylesheet" href="oocssresponsive.css">
+  <link rel="stylesheet" href="tailor.css">
+  <link rel="stylesheet" href="service.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="top" style="background-color: #fafafa;">
+  <!--  top navbar  -->
+  <nav id="nav"  class="row flex medium-hide">
+    <div class="color padding-sides-1">
+      <a class="btn block underline hover-text-brown active" href="tailor.html">خانه</a>
+      <a class="btn block underline hover-text-brown" href="about.html">درباره ما</a>
+      <a class="btn block underline hover-text-brown" href="service.html">خدمات</a>
+    </div>
+    <div class="logo"><!-- LOGO  -->
+      <img src="palto/logo.png" alt="">
+    </div>
+    <div class="color padding-sides-1">
+      <a class="btn block underline hover-text-brown" href="#">نمونه کارها</a>
+      <a class="btn block underline hover-text-brown" href="faq.html">سوالات</a>
+      <a class="btn block hover-text-brown" href="contact.html">تماس با ما</a>
+    </div>
+  </nav>
+  <!--  medium less menu - mobile bar  -->
+  <nav class="large-hide" style="background-color: #3b3b3b;">
+    <div class="logo" style="text-align: center;"><!-- LOGO  -->
+      <img src="palto/logo.png" alt="">
+    </div>
+    <div class="btn" onclick="mobileBar();" style="background-color: #3b3b3b00; color: white; position: absolute; top: 39px; right: 1rem; font-size: 1.6rem;"><i class="fa fa-bars"></i></div>
+    <div id="mobile-bar" class="hide color">
+      <a class="btn block underline hover-text-brown active" href="tailor.html">خانه</a>
+      <a class="btn block underline hover-text-brown" href="about.html">درباره ما</a>
+      <a class="btn block underline hover-text-brown" href="service.html">خدمات</a>
+      <a class="btn block underline hover-text-brown" href="#">نمونه کارها</a>
+      <a class="btn block underline hover-text-brown" href="faq.html">سوالات</a>
+      <a class="btn block hover-text-brown" href="contact.html">تماس با ما</a>
+    </div>
+  </nav>
+  <!--  image cover back  -->
+  <div style="width: 100%; max-height: 66vh; overflow: hidden; position: relative; z-index: -1;">
+    <img src="palto/2.png" alt="" style="width: 100%; aspect-ratio: 10/5; object-fit: cover;">
+    <h1 class="center-absolute jumbo text-white">خدمات</h1>
+  </div>
+  <!--  services  -->
+  <div class="row padding-updown" style="text-align: center; margin: 0 auto; max-width: 1250px;">
+    <div class="row flex-sides" style="position: relative;">
+      <span class="vertical-center-line"></span>
+      <div class="row relative padding-bottom">
+        <span class="dot-on-vertical-line"></span>
+        <img class="padding-sides-jumbo padding-mobile col m6 portimg" src="palto/4.png" alt="">
+        <h3 class="padding-sides-jumbo padding-mobile xxxlarge col m6">لباس عروس</h3>
+      </div>
+      <div class="row relative padding-bottom">
+        <span class="dot-on-vertical-line"></span>
+        <img class="padding-sides-jumbo padding-mobile col m6 portimg" src="palto/7.png" alt="">
+        <h3 class="padding-sides-jumbo padding-mobile xxxlarge col m6">لباس مجلسی</h3>
+      </div>
+      <div class="row relative padding-bottom">
+        <span class="dot-on-vertical-line"></span>
+        <img class="padding-sides-jumbo padding-mobile col m6 portimg" src="palto/5.png" alt="">
+        <h3 class="padding-sides-jumbo padding-mobile xxxlarge col m6">لباس مراسم جشن</h3>
+      </div>
+      <div class="row relative padding-bottom">
+        <span class="dot-on-vertical-line"></span>
+        <img class="padding-sides-jumbo padding-mobile col m6 portimg" src="palto/6.png" alt="">
+        <h3 class="padding-sides-jumbo padding-mobile xxxlarge col m6">سفارشی مردانه</h3>
+      </div>
+      <div class="row relative padding-bottom">
+        <span class="dot-on-vertical-line"></span>
+        <img class="padding-sides-jumbo padding-mobile col m6 portimg" src="palto/14.jpg" alt="">
+        <h3 class="padding-sides-jumbo padding-mobile xxxlarge col m6">ساقدوش های عروس</h3>
+      </div>
+      <div class="row relative padding-bottom">
+        <span class="dot-on-vertical-line"></span>
+        <img class="padding-sides-jumbo padding-mobile col m6 portimg" src="palto/12.jpg" alt="">
+        <h3 class="padding-sides-jumbo padding-mobile xxxlarge col m6">ساقدوش کودک/ حامل حلقه</h3>
+      </div>
+      <div class="row relative padding-bottom">
+        <span class="dot-on-vertical-line"></span>
+        <img class="padding-sides-jumbo padding-mobile col m6 portimg" src="palto/13.jpg" alt="">
+        <h3 class="padding-sides-jumbo padding-mobile xxxlarge col m6">داماد و ساقدوش داماد</h3>
+      </div>
+    </div>
+    <div class="div-bottom-p">
+      <p class="bottom-p">
+        <strong>تغییرات برای لباس های تجاری، لباس های روزمره، شلوار جین و موارد دیگر.</strong>
+      </p>
+      <p class="bottom-p">
+        <strong>
+          آیا به چیزی غیر از لباس نیاز دارید؟ برای پرس و جو در مورد پرده، پرده، کالاهای چرمی، بنرهای مدرسه و لباس تیم تماس بگیرید.</strong>
+        <strong>
+          از دوشنبه تا پنج شنبه استقبال می شود و قرار ملاقات جمعه و شنبه به شدت تشویق می شود. ما مشاوره رایگان در مورد تمام لباس ها ارائه می دهیم.</strong>
+      </p>
+    </div>
+  </div>
+  <!--  footer  -->
+  <div dir="ltr" class="footer dark-gray padding-jumbo large">Copyright 2019 - legacytailor.com. All rights Reserved!</div>
+  <div class="floating-button tertiary"><a href="#top" class="btn"><i class="fa-solid fa-caret-up"></i></a></div>
+  <script src="mobilebar.js"></script>
+  <script src="accordion.js"></script>
+  </div>

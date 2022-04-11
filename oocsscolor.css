@@ -1,0 +1,121 @@
+.red, .hover-red:hover{
+  color:#ffffff;
+  background-color: #f44336;
+}
+.pink, .hover-pink:hover{
+  color:#ffffff;
+  background-color: #e91e63;
+}
+.purple, .hover-purple:hover{
+  color: #ffffff;
+  background-color: #9c27b0;
+}
+.deep-purple, .hover-deep-purple:hover{
+  color: #ffffff;
+  background-color: #673ab7;
+}
+.indigo, .hover-indigo:hover{
+  color: #ffffff;
+  background-color: #3f51b5;
+}
+.blue, .hover-blue:hover{
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.light-blue, .hover-light-blue:hover{
+  color: #ffffff;
+  background-color: #87ceeb;
+}
+.cyan, .hover-cyan:hover{
+  color: #ffffff;
+  background-color: #00bcd4;
+}
+.aqua, .hover-aqua:hover{
+  color: #ffffff;
+  background-color: #00ffff;
+}
+.teal, .hover-teal:hover{
+  color: #ffffff;
+  background-color: #009688;
+}
+.green, .hover-green:hover{
+  color: #ffffff;
+  background-color: #4caf50;
+}
+.light-green, .hover-light-green:hover{
+  color: #ffffff;
+  background-color: #8bc34a;
+}
+.lime, .hover-lime:hover{
+  color: #ffffff;
+  background-color: #cddc39;
+}
+.sand, .hover-sand:hover{
+  color: #ffffff;
+  background-color: #fdf5e6;
+}
+.khaki, .hover-khaki:hover{
+  color: #ffffff;
+  background-color: #f0e68c;
+}
+.yellow, .hover-yellow:hover{
+  color:#ffffff;
+  background-color: #ffeb3b;
+}
+.amber, .hover-amber:hover{
+  color:#ffffff;
+  background-color: #ffc107;
+}
+.orange, .hover-orange:hover{
+  color: #ffffff;
+  background-color: #ff9800;
+}
+.deep-orange, .hover-deep-orange:hover{
+  color: #ffffff;
+  background-color: #ff5722;
+}
+.blue-gray, .hover-blue-gray:hover{
+  color: #ffffff;
+  background-color: #607d8b;
+}
+.brown, .hover-brown:hover{
+  color: #ffffff;
+  background-color: #795548;
+}
+.light-gray, .hover-light-gray:hover{
+  color: #ffffff;
+  background-color: #f1f1f1;
+}
+.gray, .hover-gray:hover{
+  color: #ffffff;
+  background-color: #9e9e9e;
+}
+.dark-gray, .hover-dark-gray:hover{
+  color: #ffffff;
+  background-color: #616161;
+}
+.pale-red, .hover-pale-red{
+  color: #ffffff;
+  background-color: #ffdddd;
+}
+.pale-yellow, .hover-pale-yellow:hover{
+  color: #ffffff;
+  background-color: #ffffcc;
+}
+.pale-green, .hover-green:hover{
+  color: #ffffff;
+  background-color: #ddffdd;
+}
+.pale-blue, .hover-pale-sssblue:hover{
+  color: #ffffff;
+  background-color: #ddffff;
+}
+
+.white, .hover-white:hover{
+  color: #000000;
+  background-color: #ffffff;
+}
+.black, .hover-black:hover{
+  color: #ffffff;
+  background-color: #000000;
+}

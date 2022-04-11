@@ -1,0 +1,51 @@
+.btn{
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 0;
+  padding: 0 1em;
+  border: none;
+  text-decoration: none;
+  background-color: inherit;
+  color: inherit;
+  text-align: center;
+  height: 43px;
+  line-height: 44px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+}
+.block{
+  display: block;
+  width: 100%;
+}
+.primary{
+  color: green;
+  background-color: white;
+  border-color: green;
+}
+.primary:hover{
+  color: white;
+  background-color: green;
+  border-color: green;
+}
+.secondary, .secondary.active:hover{
+  color: black;
+  background-color: white;
+  border-color: gray;
+}
+.secondary:hover, .secondary.active{
+  color: white;
+  background-color: gray;
+  border-color: gray;
+}
+.tertiary, .btn.tertiary{
+  color: black;
+  background-color: gray;
+  border-color: gray;
+}
+.hover-tertiary:hover, .tertiary:hover, .btn.tertiary:hover{
+  color: white;
+  background-color: black;
+  border-color: black;
+}

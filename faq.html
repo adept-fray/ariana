@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://kit.fontawesome.com/01fef2320d.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Legacy tailor</title>
+  <link rel="stylesheet" href="oocssbtn.css">
+  <link rel="stylesheet" href="oocsssize.css">
+  <link rel="stylesheet" href="oocsscolor.css">
+  <link rel="stylesheet" href="oocssresponsive.css">
+  <link rel="stylesheet" href="tailor.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="top" style="background-color: #fafafa;">
+  <!--  top navbar  -->
+  <nav id="nav"  class="row flex medium-hide">
+    <div class="color padding-sides-1">
+      <a class="btn block underline hover-text-brown active" href="tailor.html">خانه</a>
+      <a class="btn block underline hover-text-brown" href="about.html">درباره ما</a>
+      <a class="btn block underline hover-text-brown" href="service.html">خدمات</a>
+    </div>
+    <div class="logo"><!-- LOGO  -->
+      <img src="palto/logo.png" alt="">
+    </div>
+    <div class="color padding-sides-1">
+      <a class="btn block underline hover-text-brown" href="#">نمونه کارها</a>
+      <a class="btn block underline hover-text-brown" href="faq.html">سوالات</a>
+      <a class="btn block hover-text-brown" href="contact.html">تماس با ما</a>
+    </div>
+  </nav>
+  <!--  medium less menu - mobile bar  -->
+  <nav class="large-hide" style="background-color: #3b3b3b;">
+    <div class="logo" style="text-align: center;"><!-- LOGO  -->
+      <img src="palto/logo.png" alt="">
+    </div>
+    <div class="btn" onclick="mobileBar();" style="background-color: #3b3b3b00; color: white; position: absolute; top: 39px; right: 1rem; font-size: 1.6rem;"><i class="fa fa-bars"></i></div>
+    <div id="mobile-bar" class="hide color">
+      <a class="btn block underline hover-text-brown active" href="tailor.html">خانه</a>
+      <a class="btn block underline hover-text-brown" href="about.html">درباره ما</a>
+      <a class="btn block underline hover-text-brown" href="service.html">خدمات</a>
+      <a class="btn block underline hover-text-brown" href="#">نمونه کارها</a>
+      <a class="btn block underline hover-text-brown" href="faq.html">سوالات</a>
+      <a class="btn block hover-text-brown" href="contact.html">تماس با ما</a>
+    </div>
+  </nav>
+  <!--  image cover back  -->
+  <div style="width: 100%; max-height: 66vh; overflow: hidden; position: relative; z-index: -1;">
+    <img src="palto/2.png" alt="" style="width: 100%; aspect-ratio: 10/5; object-fit: cover;">
+    <h1 class="center-absolute jumbo text-white">سوالات</h1>
+  </div>
+  <!--  QA  -->
+  <div class="qa row padding-jumbo padding-mobile" style="margin: 0 auto; padding-top: 6rem; padding-bottom: 6rem; max-width: 1250px;">
+    <div  style="background-color: #fff;">
+      <div class="accordion qaflex btn block hover-tertiary padding-xlarge padding-mobile xlarge" style="text-align: start; height: auto;">
+        <h4>چه زمانی باید تغییر خود را برنامه ریزی کنم؟</h4>
+        <i class="fa-solid fa-plus"></i>
+      </div>
+      <div class="padding-jumbo hidden">
+        <p>برای اولین بار عروسی خود را ۸ تا ۱۲ هفته قبل از روز عروسی خود برنامه ریزی کنید. این به شما زمان زیادی را برای اتصال دوم و همچنین هر گونه تغییری که ممکن است قبل از روز خاص خود بخواهید می دهد.</p>
+      </div>
+
+      <div class="accordion qaflex btn block hover-tertiary padding-xlarge padding-mobile xlarge" style="text-align: start; height: auto;">
+        <h4>چه چیزی باید برای تغییر خود بیاورم؟</h4>
+        <i class="fa-solid fa-plus"></i>
+      </div>
+      <div class="padding-jumbo hidden">
+        <p>اگر قصد دارید آن را در روز بزرگ خود بپوشید، توصیه می کنیم آن را به تناسب خود بیاورید. این شامل: لباس زیر، نیم تنه، کرست، لباس فرم، گردنبند و گوشواره است. لازم است کفشی را که می خواهید در روز عروسی بپوشید به همراه داشته باشید. اینها ضروری هستند، تا مطمئن شویم که قد لباس شما را درست انتخاب می کنیم!</p>
+      </div>
+
+      <div class="accordion qaflex btn block hover-tertiary padding-xlarge padding-mobile xlarge" style="text-align: start; height: auto;">
+        <h4>به چه تعداد اتصالات نیاز خواهم داشت؟</h4>
+        <i class="fa-solid fa-plus"></i>
+      </div>
+      <div class="padding-jumbo hidden">
+        <p>اکثر اتصالات ما نیاز به ۲ بازدید دارند. در بازدید دوم شما مطمئن خواهیم شد که همه چیز عالی است، سینه، کمر، باسن، سجاف، و شلوغی. ما می‌توانیم هر گونه پیچ و تاب را بعد از اتصال دوم برطرف کنیم. برخلاف رقبایمان، ما برای اتصالات اضافی هزینه ای دریافت نمی کنیم!</p>
+      </div>
+
+      <div class="accordion qaflex btn block hover-tertiary padding-xlarge padding-mobile xlarge" style="text-align: start; height: auto;">
+        <h4>اتصالات چقدر طول می کشد؟</h4>
+        <i class="fa-solid fa-plus"></i>
+      </div>
+      <div class="padding-jumbo hidden">
+        <p>اولین اتصال طولانی ترین خواهد بود، معمولا حدود۳۰-۴۵ دقیقه. اتصالات دوم و سوم معمولاً ۲۰ دقیقه یا کمتر است.</p>
+      </div>
+
+      <div class="accordion qaflex btn block hover-tertiary padding-xlarge padding-mobile xlarge" style="text-align: start; height: auto;">
+        <h4>چه مدت طول می کشد تا لباس من را تغییر دهم؟</h4>
+        <i class="fa-solid fa-plus"></i>
+      </div>
+      <div class="padding-jumbo hidden">
+        <p>کل روند ممکن است چندین هفته طول بکشد، گاهی اوقات در شلوغ ترین زمان های فصل عروسی (مارس تا ژوئن) بیشتر طول می کشد. با میانگین ۲ اتصالات، این می تواند ۶-۸ هفته طول بکشد. لباس هایی که به تغییرات گسترده تری مانند بند، سینه، باسن، شلوغی و غیره نیاز دارند، بیشتر طول می کشد. برای مثال یک سجاف ممکن است فقط ۱ هفته طول بکشد. گزینه تعجیل برای تغییرات لحظه آخری در دسترس است. ما تمام تلاش خود را می کنیم تا هر عروسی را در خود جای دهیم.</p>
+      </div>
+
+      <div class="accordion qaflex btn block hover-tertiary padding-xlarge padding-mobile xlarge" style="text-align: start; height: auto;">
+        <h4>یک مغازه لباس من را خراب کرد، می توانید آن را درست کنید؟</h4>
+        <i class="fa-solid fa-plus"></i>
+      </div>
+      <div class="padding-jumbo hidden">
+        <p>متأسفانه هر از گاهی این اتفاق می افتد و ما اینجا هستیم تا کمک کنیم. آن را بیاورید و خیاطان متخصص ما می توانند آن را نگاه کنند و جادوی خود را انجام دهند.</p>
+      </div>
+
+      <div class="accordion qaflex btn block hover-tertiary padding-xlarge padding-mobile xlarge" style="text-align: start; height: auto;">
+        <h4>چند سایز را می توانید در نظر بگیرید؟</h4>
+        <i class="fa-solid fa-plus"></i>
+      </div>
+      <div class="padding-jumbo hidden">
+        <p>در حالی که هر لباس منحصر به فرد است و می تواند متفاوت باشد، کارشناسان ما معمولاً می توانند یک لباس را ۱۰ سایز کاهش دهند.</p>
+      </div>
+
+      <div class="accordion qaflex btn block hover-tertiary padding-xlarge padding-mobile xlarge" style="text-align: start; height: auto;">
+        <h4>اگر قصد کاهش وزن برای عروسی داشته باشم چه می شود؟</h4>
+        <i class="fa-solid fa-plus"></i>
+      </div>
+      <div class="padding-jumbo hidden">
+        <p>ما با شما کار خواهیم کرد. ما بسیار خوشحالیم که لباس را در صورت نیاز برای هر تغییر لحظه آخری ثانویه به کاهش وزن تغییر دهیم.</p>
+      </div>
+
+      <div class="accordion qaflex btn block hover-tertiary padding-xlarge padding-mobile xlarge" style="text-align: start; height: auto;">
+        <h4>چه کسی می تواند به اتصالات من بیاید؟</h4>
+        <i class="fa-solid fa-plus"></i>
+      </div>
+      <div class="padding-jumbo hidden">
+        <p>ما برای همه مهمانان شما جا داریم. در پایان، توصیه می کنیم هرکسی را که در عروسی شلوغی شما را بسته است، بیاورید. خیاطان استاد ما به شما و مهمانتان نشان می‌دهند که شلوغی روی لباس شما چگونه عمل می‌کند و همچنین برای تمرین وقت می‌گذارد.</p>
+      </div>
+
+      <div class="accordion qaflex btn block hover-tertiary padding-xlarge padding-mobile xlarge" style="text-align: start; height: auto;">
+        <h4>هزینه تغییرات چقدر است؟</h4>
+        <i class="fa-solid fa-plus"></i>
+      </div>
+      <div class="padding-jumbo hidden">
+        <p>بسته به کاری که باید روی لباس خود انجام دهید، هزینه های تغییر می تواند از ۱۰۰ دلار تا بیش از ۱۰۰۰ دلار باشد. هر لباس و هر زنی منحصر به فرد است، به منظور ارائه دقیق ترین قیمت، شما را تشویق می کنیم تا برای مشاوره رایگان خود مراجعه کنید.</p>
+      </div>
+
+      <div class="accordion qaflex btn block hover-tertiary padding-xlarge padding-mobile xlarge" style="text-align: start; height: auto;">
+        <h4>برای اتصالات چقدر هزینه می گیرید؟</h4>
+        <i class="fa-solid fa-plus"></i>
+      </div>
+      <div class="padding-jumbo hidden">
+        <p>ما مشتریان خود را بسیار دوست داریم و مشاوره و اتصالات رایگان ارائه می دهیم.</p>
+      </div>
+    </div>
+  </div>
+  <!--  footer  -->
+  <div dir="ltr" class="footer dark-gray padding-jumbo large">Copyright 2019 - legacytailor.com. All rights Reserved!</div>
+  <div class="floating-button tertiary"><a href="#top" class="btn"><i class="fa-solid fa-caret-up"></i></a></div>
+  <script src="mobilebar.js"></script>
+  <script src="accordion.js"></script>
+  </div>

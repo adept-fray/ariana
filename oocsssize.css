@@ -1,0 +1,89 @@
+html{
+  font-size: 15px;
+}
+.tiny{
+  font-size: 0.6rem;
+}
+.small{
+  font-size: 0.8rem;
+}
+.normal{
+  font-size: 1rem;
+}
+.large{
+  font-size: 1.2rem;
+}
+.xlarge{
+  font-size: 1.4rem;
+}
+.xxlarge{
+  font-size: 1.8rem;
+}
+.xxxlarge{
+  font-size: 2.2rem;
+}
+.jumbo{
+  font-size: 2.8rem;
+}
+.padding-tiny{
+  padding: 0.3rem 0.6rem;
+}
+.padding-small{
+  padding: 0.4rem 0.8rem;
+}
+.padding-normal{
+  padding: 0.5rem 1rem;
+}
+.padding-large{
+  padding: 0.6rem 1.2rem;
+}
+.padding-xlarge{
+  padding: 0.7rem 1.4rem;
+}
+.padding-xxlarge{
+  padding: 0.8rem 1.6rem;
+}
+.padding-xxxlarge{
+  padding: 0.9rem 1.8rem;
+}
+.padding-jumbo{
+  padding: 1rem 2rem;
+}
+.margin-tiny{
+  margin-bottom: 0.6rem;
+  margin-top: 0.6rem;
+}
+.margin-small{
+  margin-bottom: 0.8rem;
+  margin-top: 0.8rem;
+}
+.margin-normal{
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.margin-large{
+  margin-bottom: 1.2rem;
+  margin-top: 1.2rem;
+}
+.margin-xlarge{
+  margin-bottom: 1.4rem;
+  margin-top: 1.4rem;
+}
+.margin-xxlarge{
+  margin-bottom: 1.6rem;
+  margin-top: 1.6rem;
+}
+.margin-xxxlarge{
+  margin-bottom: 1.8rem;
+  margin-top: 1.8rem;
+}
+.margin-jumbo{
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+p, h1, h2, h3, h4, h5, h6{
+  margin: 1rem 0;
+}
+.text-center{
+  text-align: center;
+}
